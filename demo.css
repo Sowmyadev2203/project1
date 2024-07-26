@@ -150,9 +150,7 @@ p{
 }
 .div5a{
     display: flex;
-    gap: 7px;
-    margin-left: -90px;
-    
+    gap: 7px;   
 }
 
 p:hover{
@@ -209,7 +207,7 @@ p:hover{
     display: grid;
     grid-template-columns: auto auto auto auto;
 }
-@media  screen and (min-width:375px) and (max-width:642px) {
+@media  screen and (min-width:375px) and (max-width:425px) {
 
     .nav{
         margin-left: 100px;
@@ -311,6 +309,35 @@ p:hover{
         width: 400px;
     }
     
+    
+    
+}
+@media screen and (min-width:426px)  and (max-width:728px) {
+    .waterfall{
+        width:1110px;
+        height: 40vh;
+        margin-left: 34px;
+        transition: all 1s;
+    }
+    .waterfall:hover{
+        /* width: 98vw;
+        height: 41vh; */
+        transition: all 0.86s ;
+        transform: scale(1.1);
+        filter: drop-shadow(12px 12px 12px black);
+    }  
+    .next{
+        left: 500px;
+     }
+     .div6{
+        width: 1200px;
+     }
+     .page{
+        display: none;
+    }
+    .div5a{
+        margin-left:-200px;
+     }
     
 }
 
