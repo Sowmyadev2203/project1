@@ -312,7 +312,7 @@ p:hover{
     
     
 }
-@media screen and (min-width:426px)  and (max-width:728px) {
+@media screen and (min-width:426px)  and (max-width:768px) {
     .waterfall{
         width:1110px;
         height: 40vh;
